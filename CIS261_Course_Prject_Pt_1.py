@@ -46,7 +46,7 @@ def display_information(employee_name, hours_worked, hourly_rate,gross_pay, tax_
     print("Net Pay: $", f"{net_pay:,.2f}")
     print()
 
-def PrintTotals(Total_Employees, Total_Hours, Total_Gross_Pay, Total_Tax, Total_Net_Pay):    
+def Display_Totals(Total_Employees, Total_Hours, Total_Gross_Pay, Total_Tax, Total_Net_Pay):    
     print()
     print(f"Total Number Of Employees: {Total_Employees}")
     print(f"Total Hours Worked: {Total_Hours:,.2f}")
@@ -89,4 +89,4 @@ if __name__ == "__main__":
 
 
 
-    PrintTotals (Total_Employees, Total_Hours, Total_Gross_Pay, Total_Tax, Total_Net_Pay)
+    Display_Totals (Total_Employees, Total_Hours, Total_Gross_Pay, Total_Tax, Total_Net_Pay)
