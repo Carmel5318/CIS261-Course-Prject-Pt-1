@@ -7,7 +7,7 @@ def Get_Employee_Name():
     employee_name = input("Enter employee name (type 'end' to quit): ")
     return employee_name
 
-#for the next three functions, you need to convert the input to a float, e.g., varname = float(input('descripion of input:  '))
+#for the next three functions, you need to convert the input to a float
 
 #write the Get_Hours_Worked function
 def Get_Hours_Worked():
@@ -36,7 +36,7 @@ def display_information(employee_name, hours_worked, hourly_rate,gross_pay, tax_
     print("Name:  ", employee_name) 
     print("Hours Worked: ", f"{hours_worked:,.2f}")
 
-    # write the lines of code to display hourlyrate, grosspay, taxrate, incometax and netpay with correct formatting
+    # write the lines of code to display hourly_rate, gross_pay, tax_rate, income_tax and net_pay with correct formatting
 
     # taxrate needs to be formatted as percentage
     print("Hourly Rate: $", f"{hourly_rate:,.2f}")
